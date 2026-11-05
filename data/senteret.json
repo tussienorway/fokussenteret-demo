@@ -1,0 +1,595 @@
+{
+ "kilde": "https://fokussenteret.no/",
+ "hentet": "2026-11-05",
+ "merknad": "Fakta hentet fra fokussenteret.no og undersider (lesing). Beskrivelser er korte omskrivinger. Ingen bilder eller logo kopiert. Felt med null = ikke oppgitt på siden.",
+ "senter": {
+  "navn": "Fokussenteret",
+  "adresse": "Storgaten 90, 4877 Grimstad",
+  "telefon": "370 21 499",
+  "epost": "post@fokussenteret.no",
+  "apningstider": [
+   [
+    [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "09:00",
+    "17:00"
+   ],
+   [
+    [
+     5
+    ],
+    "10:00",
+    "14:00"
+   ]
+  ],
+  "parkering": "Gratis parkering for besøkende",
+  "beliggenhet": "Sentralt i Grimstad rett ved E18 og Storgaten",
+  "antall_oppgitt": "24 butikker og bedrifter",
+  "senterleder": {
+   "navn": "Lars Henrik Wold",
+   "telefon": "975 48 487",
+   "epost": "lhw@bravegruppen.no"
+  },
+  "eier": "Brave Gruppen AS",
+  "ledige_lokaler": "Ingen ledige butikk-/bedriftslokaler for øyeblikket (per hentedato)",
+  "facebook": "https://www.facebook.com/fokussenteret",
+  "instagram": "https://www.instagram.com/fokussenteret/",
+  "kilder": [
+   "https://fokussenteret.no/",
+   "https://fokussenteret.no/om-oss",
+   "https://fokussenteret.no/kontorkollektivet",
+   "https://fokussenteret.no/ledige-lokaler",
+   "https://fokussenteret.no/butikker"
+  ]
+ },
+ "butikker": [
+  {
+   "navn": "Bunnpris Grimstad",
+   "kategori": "Dagligvare",
+   "beskrivelse": "Dagligvarebutikk med åpent alle dager.",
+   "telefon": "374 07 030",
+   "epost": "BPGrimstad@bunnpris.no",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "07:00",
+     "22:00"
+    ],
+    [
+     [
+      5
+     ],
+     "08:00",
+     "22:00"
+    ],
+    [
+     [
+      6
+     ],
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": "bunnpris.no",
+   "etasje": null,
+   "sokeord": "mat dagligvare melk brød handle søndag",
+   "kilde": "https://fokussenteret.no/project-bunnpris"
+  },
+  {
+   "navn": "Fokus Apotek & Bandasjist",
+   "kategori": "Helse",
+   "beskrivelse": "Apotek med bandasjistvarer: ortopediske såler, ortoser, støttebandasjer, kompresjonstøy og brystproteser.",
+   "telefon": "370 35 000",
+   "epost": "fokus@dittapotek.no",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "09:00",
+     "17:00"
+    ],
+    [
+     [
+      5
+     ],
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": null,
+   "etasje": null,
+   "sokeord": "medisin apotek såler bandasje kompresjon resept",
+   "kilde": "https://fokussenteret.no/project-fokus-apotek-bandasjist"
+  },
+  {
+   "navn": "Fokus Dyreklinikk",
+   "kategori": "Dyr",
+   "beskrivelse": "Lokal dyreklinikk med veterinær og dyrepleier. Timebestilling via klinikkens nettside.",
+   "telefon": "370 40 400",
+   "epost": "post@fokusdyreklinikk.no",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     "09:00",
+     "16:00"
+    ],
+    [
+     [
+      2
+     ],
+     "09:00",
+     "18:00"
+    ],
+    [
+     [
+      4
+     ],
+     "09:00",
+     "14:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": null,
+   "etasje": null,
+   "sokeord": "veterinær hund katt dyr kjæledyr vaksine",
+   "kilde": "https://fokussenteret.no/project-fokus-dyreklinikk-2"
+  },
+  {
+   "navn": "Sporty",
+   "kategori": "Trening",
+   "beskrivelse": "Treningssenter med gruppetimer (bl.a. yoga, BodyBalance, zumba, spinning), fysioterapeut og personlige trenere. 1. etasje.",
+   "telefon": "570 03 000",
+   "epost": "tren.grimstad@fsc.no",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "05:00",
+     "24:00"
+    ]
+   ],
+   "apningstider_tekst": "Bemannet man–tors 09:00–19:30, fre 09:00–13:00",
+   "nettside": "sporty.no",
+   "etasje": "1. etasje",
+   "sokeord": "trening treningssenter yoga spinning zumba pt fysioterapi gym",
+   "kilde": "https://fokussenteret.no/project-sporty-family-sports-club"
+  },
+  {
+   "navn": "Aktiv helse i Fokus",
+   "kategori": "Helse",
+   "beskrivelse": "Arbeid knyttet til bevegelse og helse, med treningssal.",
+   "telefon": "371 79 700",
+   "epost": "post@ahif.no",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      3
+     ],
+     "08:00",
+     "18:00"
+    ],
+    [
+     [
+      2,
+      4
+     ],
+     "08:00",
+     "15:00"
+    ]
+   ],
+   "apningstider_tekst": "Åpningstider gjelder treningssal",
+   "nettside": "ahif.no",
+   "etasje": null,
+   "sokeord": "fysioterapi helse bevegelse rehabilitering trening",
+   "kilde": "https://fokussenteret.no/project-aktiv-helse-i-fokus"
+  },
+  {
+   "navn": "Rotfast",
+   "kategori": "Helse",
+   "beskrivelse": "Helse og bevegelse (beskrivelsen på senterets side er lik Aktiv helse i Fokus).",
+   "telefon": null,
+   "epost": "post@rotfast.no",
+   "apningstider": null,
+   "apningstider_tekst": null,
+   "nettside": "rotfast.no",
+   "etasje": null,
+   "sokeord": "helse bevegelse",
+   "kilde": "https://fokussenteret.no/project-rotfast"
+  },
+  {
+   "navn": "HØR Grimstad",
+   "kategori": "Helse",
+   "beskrivelse": "Audiograftjenester: hørselskartlegging, rådgivning, tilpassede ørepropper, ørevask og hjelp ved tinnitus. Etter avtale.",
+   "telefon": "238 98 715",
+   "epost": "audiograf@hoer.no",
+   "apningstider": null,
+   "apningstider_tekst": "Etter avtale",
+   "nettside": "hør.no",
+   "etasje": null,
+   "sokeord": "hørsel audiograf ørepropper tinnitus ørevask",
+   "kilde": "https://fokussenteret.no/project-hoer"
+  },
+  {
+   "navn": "Grimstad Fotterapi",
+   "kategori": "Helse",
+   "beskrivelse": "Behandling av fotproblemer: negler, fotsopp, hard hud, liktorn, fotanalyse og veiledning om sko og såler.",
+   "telefon": "92 48 86 89",
+   "epost": "Grimstad.fotterapi@outlook.com",
+   "apningstider": null,
+   "apningstider_tekst": null,
+   "nettside": null,
+   "etasje": null,
+   "sokeord": "fot fotpleie negl liktorn diabetes",
+   "kilde": "https://fokussenteret.no/project-grimstad-fotterapi"
+  },
+  {
+   "navn": "Studio S Hudklinikk",
+   "kategori": "Skjønnhet",
+   "beskrivelse": "Hudpleie, massasje, bryn og vipper, vippeløft, brynslaminering, gelélakk og voksing.",
+   "telefon": "948 91 083",
+   "epost": "silje.r.lunde@gmail.com",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": "studioshudklinikk.no",
+   "etasje": null,
+   "sokeord": "hud hudpleie massasje vipper bryn negler voks",
+   "kilde": "https://fokussenteret.no/project-studio-s-hudklinikk-2"
+  },
+  {
+   "navn": "Nikol Frisør",
+   "kategori": "Skjønnhet",
+   "beskrivelse": "Frisør for dame og herre: klipp, farge, striper, vask/føn, voks og farge bryn. Timebestilling eller drop-in.",
+   "telefon": "462 58 303",
+   "epost": "alona.iljina@gmail.com",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "10:00",
+     "17:00"
+    ],
+    [
+     [
+      5
+     ],
+     "10:00",
+     "15:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": null,
+   "etasje": null,
+   "sokeord": "frisør klipp hår farge drop-in",
+   "kilde": "https://fokussenteret.no/project-nikol-frisor"
+  },
+  {
+   "navn": "Sørlandets naturterapi",
+   "kategori": "Helse",
+   "beskrivelse": "Alternativbehandling og healing. Ingen faste åpningstider; kontakt på telefon eller e-post.",
+   "telefon": "909 79 720",
+   "epost": "dts.naturterapi@gmail.com",
+   "apningstider": null,
+   "apningstider_tekst": "Ingen faste åpningstider",
+   "nettside": "sorlandetsnaturterapi.no",
+   "etasje": null,
+   "sokeord": "healing alternativ behandling",
+   "kilde": "https://fokussenteret.no/project-sorlandets-naturterapi"
+  },
+  {
+   "navn": "The Shack",
+   "kategori": "Mat",
+   "beskrivelse": "Smashburgers, ribs, fried chicken og milkshakes. Nyhet på senteret.",
+   "telefon": "400 09 995",
+   "epost": "grimstad@theshack.no",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "11:00",
+     "21:00"
+    ],
+    [
+     [
+      5,
+      6
+     ],
+     "13:00",
+     "21:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": "theshack.no",
+   "etasje": null,
+   "sokeord": "burger mat spise middag shake",
+   "kilde": "https://fokussenteret.no/project-theshack"
+  },
+  {
+   "navn": "Burrito Børsen",
+   "kategori": "Mat",
+   "beskrivelse": "Burritorestaurant.",
+   "telefon": "991 18 337",
+   "epost": "burritoborsen@gmail.com",
+   "apningstider": [
+    [
+     [
+      6,
+      0,
+      1,
+      2,
+      3
+     ],
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": null,
+   "etasje": null,
+   "sokeord": "burrito mat spise meksikansk",
+   "kilde": "https://fokussenteret.no/project-burritoborsen-grimstad"
+  },
+  {
+   "navn": "Sakura Sushi & Thai mat (Pitchaya thai mat)",
+   "kategori": "Mat",
+   "beskrivelse": "Thaimat og sushi, også catering. Oppført som «Pitchaya thai mat» i senterets oversikt.",
+   "telefon": "489 11 434",
+   "epost": "post@pitchayathai.no",
+   "apningstider": [
+    [
+     [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "14:00",
+     "20:00"
+    ]
+   ],
+   "apningstider_tekst": "Man–tirs stengt",
+   "nettside": null,
+   "etasje": null,
+   "sokeord": "thai sushi mat spise catering",
+   "kilde": "https://fokussenteret.no/project-pitchaya-thai-mat"
+  },
+  {
+   "navn": "Fokus Gjenbruk",
+   "kategori": "Butikk",
+   "beskrivelse": "Bruktbutikk i 2. etasje – kjøp, eller selg det du ikke trenger.",
+   "telefon": "400 53 652",
+   "epost": "kontakt@fokusgjenbruk.no",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": null,
+   "etasje": "2. etasje",
+   "sokeord": "brukt gjenbruk second hand selge",
+   "kilde": "https://fokussenteret.no/project-fokus-gjenbruk"
+  },
+  {
+   "navn": "Rekvisitabutikken",
+   "kategori": "Butikk",
+   "beskrivelse": "Forbruksartikler, 2. etasje. Oppgir fast studentrabatt 20 %.",
+   "telefon": "905 60 308",
+   "epost": null,
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "08:30",
+     "16:00"
+    ]
+   ],
+   "apningstider_tekst": "Senterets side skriver «08:030»; tolket som 08:30",
+   "nettside": null,
+   "etasje": "2. etasje",
+   "sokeord": "rekvisita forbruk papir renhold student",
+   "kilde": "https://fokussenteret.no/proproject-rekvisitabutikken"
+  },
+  {
+   "navn": "Grimstad Renhold",
+   "kategori": "Tjenester",
+   "beskrivelse": "Renholdsfirma for bedrift og hjem.",
+   "telefon": "905 60 308",
+   "epost": "salg@grimstadrenhold.no",
+   "apningstider": null,
+   "apningstider_tekst": "Mandag–fredag (klokkeslett ikke oppgitt)",
+   "nettside": "grimstadrenhold.no",
+   "etasje": null,
+   "sokeord": "vask renhold rengjøring",
+   "kilde": "https://fokussenteret.no/project-grimstad-renhold"
+  },
+  {
+   "navn": "HydroKleen",
+   "kategori": "Tjenester",
+   "beskrivelse": "Service på luft-til-luft-varmepumper.",
+   "telefon": "488 97 018",
+   "epost": "truls@hydrokleen.no",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "10:00",
+     "17:00"
+    ],
+    [
+     [
+      5
+     ],
+     "10:00",
+     "15:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": "hydrokleen.no",
+   "etasje": null,
+   "sokeord": "varmepumpe service rens",
+   "kilde": "https://fokussenteret.no/project-hydrokleen"
+  },
+  {
+   "navn": "Bravegruppen",
+   "kategori": "Tjenester",
+   "beskrivelse": "Eiendomsutvikling og eiendomstjenester (seksjonering, servitutter, byggesøknader). Eier senteret.",
+   "telefon": "916 32 261",
+   "epost": "obl@bravegruppen.no",
+   "apningstider": [
+    [
+     [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "apningstider_tekst": null,
+   "nettside": "bravegruppen.no",
+   "etasje": null,
+   "sokeord": "eiendom bolig seksjonering byggesøknad",
+   "kilde": "https://fokussenteret.no/project-bravebygg-bravegruppen"
+  },
+  {
+   "navn": "Eviny hurtiglading",
+   "kategori": "Bil",
+   "beskrivelse": "Hurtiglading for elbil. Priser oppgitt på senterets side: 5,89 kr/kWh hurtig/lyn, 4,29 kr/kWh normal (kan endres – sjekk Bilkraft-appen).",
+   "telefon": "+47 55 57 00 00",
+   "epost": "hei@eviny.no",
+   "apningstider": "alltid",
+   "apningstider_tekst": null,
+   "nettside": "hurtiglading.eviny.no",
+   "etasje": null,
+   "sokeord": "elbil lading lade strøm",
+   "kilde": "https://fokussenteret.no/project-eviny"
+  },
+  {
+   "navn": "Uno-X",
+   "kategori": "Bil",
+   "beskrivelse": "Selvbetjent bensinstasjon.",
+   "telefon": null,
+   "epost": null,
+   "apningstider": "alltid",
+   "apningstider_tekst": null,
+   "nettside": null,
+   "etasje": null,
+   "sokeord": "bensin diesel drivstoff tanke",
+   "kilde": "https://fokussenteret.no/project-unox"
+  },
+  {
+   "navn": "Wash World",
+   "kategori": "Bil",
+   "beskrivelse": "Bilvask; medlemskap via nettsiden.",
+   "telefon": null,
+   "epost": null,
+   "apningstider": null,
+   "apningstider_tekst": null,
+   "nettside": "washworld.no",
+   "etasje": null,
+   "sokeord": "bilvask vaske bil",
+   "kilde": "https://fokussenteret.no/project-wash-world"
+  },
+  {
+   "navn": "Fokuskirka",
+   "kategori": "Fellesskap",
+   "beskrivelse": "Menighet med møter i 3. etasje hver søndag kl. 12.00.",
+   "telefon": "404 53 060",
+   "epost": "johntore@fokuskirka.no",
+   "apningstider": null,
+   "apningstider_tekst": "Søndager kl. 12.00",
+   "nettside": "fokuskirka.no",
+   "etasje": "3. etasje",
+   "sokeord": "kirke menighet gudstjeneste søndag",
+   "kilde": "https://fokussenteret.no/project-fokuskirka"
+  },
+  {
+   "navn": "Kontorkollektivet",
+   "kategori": "Kontor",
+   "beskrivelse": "Kontorfellesskap i 2. etasje med enkeltkontorer, felles kjøkken, møterom og sosiale soner.",
+   "telefon": "370 21 499",
+   "epost": "post@fokussenteret.no",
+   "apningstider": null,
+   "apningstider_tekst": "Kontakt for visning",
+   "nettside": null,
+   "etasje": "2. etasje",
+   "sokeord": "kontor leie kontorplass møterom coworking",
+   "kilde": "https://fokussenteret.no/kontorkollektivet"
+  }
+ ]
+}

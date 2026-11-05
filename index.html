@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Fokussenteret Grimstad (uavhengig konsept)</title>
+<meta name="description" content="Uavhengig demo/konsept av en ny nettside for Fokussenteret i Grimstad. Ikke offisiell side.">
+<link rel="stylesheet" href="css/stil.css"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2714%27 fill=%27%23ff6b3d%27/%3E%3C/svg%3E">
+</head>
+<body>
+<div class="demo-banner" role="note"><strong>Uavhengig konsept</strong> – demo laget av Majere/tussie. Ikke offisiell Fokussenteret-side. Ingen skjemaer sender noe. <a href="om-demoen.html">Om demoen</a></div>
+<header class="topp">
+  <a class="logo" href="index.html"><span class="logo-merke" aria-hidden="true"></span>Fokussenteret</a>
+  <nav aria-label="Hovedmeny"><a href="#veiviser">Veiviser</a><a href="#butikker">Butikker</a><a href="#kontor">Kontor</a><a href="#kontakt">Kontakt</a></nav>
+  <span class="status-pille" id="status-topp" aria-live="polite"></span>
+</header>
+<main id="innhold">
+<section class="hero">
+  <div>
+    <p class="kicker">Nærsenter i Grimstad · rett ved E18 og Storgaten</p>
+    <h1>Alt i nærheten.<br><span class="uth">Under ett tak.</span></h1>
+    <p class="ingress">Dagligvare, apotek, trening, mat, helse og skjønnhet: <span id="antall">24</span> butikker og bedrifter, og gratis parkering for besøkende.</p>
+    <div class="knapper"><a class="knapp" href="#veiviser">Finn det du trenger</a><a class="knapp sek" href="#butikker">Se alle</a></div>
+    <ul class="info-rad">
+      <li><b>Senteret</b><span id="tid-senter"></span></li>
+      <li><b>Bunnpris</b><span id="tid-bunnpris"></span></li>
+      <li><b>Parkering</b><span>Gratis</span></li>
+    </ul>
+  </div>
+  <div class="illu" aria-hidden="true">
+    <svg viewBox="0 0 400 320">
+      <defs><linearGradient id="g1" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ffd6c2"/><stop offset="1" stop-color="#ffefe6"/></linearGradient></defs>
+      <circle cx="310" cy="70" r="38" fill="#ffb347"/>
+      <rect x="40" y="110" width="320" height="170" rx="14" fill="#1d3b53"/>
+      <rect x="40" y="110" width="320" height="34" rx="14" fill="#ff6b3d"/>
+      <text x="200" y="134" text-anchor="middle" font-family="system-ui" font-weight="800" font-size="18" fill="#fff">FOKUSSENTERET</text>
+      <g fill="#9fd3ff" opacity=".9"><rect x="62" y="160" width="60" height="38" rx="4"/><rect x="134" y="160" width="60" height="38" rx="4"/><rect x="206" y="160" width="60" height="38" rx="4"/><rect x="278" y="160" width="60" height="38" rx="4"/></g>
+      <g fill="#ffe08a"><rect x="62" y="214" width="60" height="66" rx="4"/><rect x="278" y="214" width="60" height="66" rx="4"/></g>
+      <rect x="158" y="214" width="84" height="66" rx="4" fill="#ffefe6"/><line x1="200" y1="214" x2="200" y2="280" stroke="#1d3b53" stroke-width="3"/>
+      <rect x="0" y="280" width="400" height="40" fill="#2b2f36"/><g fill="#fff"><rect x="20" y="298" width="40" height="4"/><rect x="100" y="298" width="40" height="4"/><rect x="180" y="298" width="40" height="4"/><rect x="260" y="298" width="40" height="4"/><rect x="340" y="298" width="40" height="4"/></g>
+      <circle cx="372" cy="250" r="16" fill="#2f9e6e"/><text x="372" y="256" text-anchor="middle" font-family="system-ui" font-weight="800" font-size="16" fill="#fff">P</text>
+    </svg>
+  </div>
+</section>
+
+<section id="veiviser" class="seksjon panel">
+  <h2>Veiviser</h2>
+  <p class="dempet">Skriv hva du trenger, så viser veiviseren hvem på senteret som kan hjelpe, og om de har åpent nå. Den kjører i nettleseren (regelbasert), og en lokal AI kan kobles til senere.</p>
+  <div class="chat" id="chat" aria-live="polite"></div>
+  <form class="chat-inn" id="chat-skjema"><label class="sr" for="chat-felt">Hva trenger du?</label><input id="chat-felt" autocomplete="off" placeholder="F.eks. «hvor kan jeg spise nå?» eller «hund trenger vaksine»"><button class="knapp" type="submit">Spør</button></form>
+  <div class="forslag" id="forslag"><button type="button">Hvor kan jeg spise?</button><button type="button">Trening</button><button type="button">Hva er åpent nå?</button><button type="button">Lade elbil</button><button type="button">Leie kontor</button></div>
+</section>
+
+<section id="butikker" class="seksjon">
+  <div class="hode"><h2>Butikker og bedrifter</h2><p id="treff" class="dempet" aria-live="polite"></p></div>
+  <div class="verktoy">
+    <label class="sok"><span class="sr">Søk</span><input type="search" id="sok" placeholder="Søk etter navn eller tjeneste"></label>
+    <label class="bryter"><input type="checkbox" id="aapen-na"> Bare åpent nå</label>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Kategori"></div>
+  <div class="rutenett" id="rutenett"></div>
+</section>
+
+<section id="kontor" class="seksjon to-kol">
+  <div>
+    <h2>Kontorkollektivet</h2>
+    <p>Enkeltkontorer i et kontorfellesskap i 2. etasje, med folk fra ulike bransjer.</p>
+    <ul class="hake"><li>Kontor med gode arbeidsforhold</li><li>Felles kjøkken og toalett</li><li>Kaffemaskin og sosiale soner</li><li>Møterom</li></ul>
+    <p class="dempet">Ingen ledige butikk-/bedriftslokaler akkurat nå (per hentedato). Ta kontakt for visning av kontorplass.</p>
+  </div>
+  <div class="kort-stor"><p class="plass">Plassholder: pris per kontor og antall ledige plasser er ikke oppgitt på dagens side.</p><a class="knapp" href="mailto:post@fokussenteret.no?subject=Visning%20kontorkollektivet">Be om visning</a></div>
+</section>
+
+<section id="kontakt" class="seksjon">
+  <h2>Kontakt og åpningstider</h2>
+  <div class="kontakt">
+    <div class="boks"><h3>Fokussenteret</h3><p>Storgaten 90, 4877 Grimstad</p><p><a href="tel:+4737021499">370 21 499</a><br><a href="mailto:post@fokussenteret.no">post@fokussenteret.no</a></p><p>Gratis parkering for besøkende</p></div>
+    <div class="boks"><h3>Åpningstider</h3><p>Senteret: man–fre 09–17, lør 10–14</p><p>Bunnpris: man–fre 07–22, lør 08–22, søn 10–22</p><p class="dempet">Butikkene kan ha egne tider; se hver enkelt.</p></div>
+    <div class="boks"><h3>Senterleder</h3><p>Lars Henrik Wold</p><p><a href="tel:+4797548487">975 48 487</a><br><a href="mailto:lhw@bravegruppen.no">lhw@bravegruppen.no</a></p><p class="dempet">Eier: Brave Gruppen AS</p></div>
+  </div>
+  <div class="kart plass" role="img" aria-label="Plassholder for kart">Plassholder: kart og etasjeoversikt (ikke på dagens side). <a href="https://www.openstreetmap.org/search?query=Storgaten%2090%2C%204877%20Grimstad" rel="noopener">Åpne i OpenStreetMap</a></div>
+</section>
+</main>
+
+<dialog id="modal" aria-labelledby="m-navn"><button class="lukk" id="m-lukk" aria-label="Lukk">×</button><div id="m-innhold"></div></dialog>
+
+<footer class="bunn">
+  <p><strong>Uavhengig konsept:</strong> demo laget av Majere/tussie. Ikke offisiell Fokussenteret-side og ikke tilknyttet senteret eller Brave Gruppen AS. Fakta hentet fra fokussenteret.no <span id="hentet"></span>; ingen bilder eller logo er kopiert.</p>
+  <p><a href="om-demoen.html">Om demoen</a> · <a href="https://www.facebook.com/fokussenteret" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/fokussenteret/" rel="noopener">Instagram</a></p>
+</footer>
+<script type="module" src="js/app.js"></script>
+</body></html>
